@@ -1,0 +1,10 @@
+bin/
+.DS_Store
+.Rhistory
+.env
+.env.*
+*.der
+*.pem
+*.p12
+*.pfx
+*.key

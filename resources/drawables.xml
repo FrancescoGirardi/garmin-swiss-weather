@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bitmap id="LauncherIcon" filename="launcher-icon.png" scope="glance" />
+    <bitmap id="WeatherSun" filename="icons/sun.png" scope="glance" />
+    <bitmap id="WeatherPartCloud" filename="icons/part-cloud.png" scope="glance" />
+    <bitmap id="WeatherCloud" filename="icons/cloud.png" scope="glance" />
+    <bitmap id="WeatherRain" filename="icons/rain.png" scope="glance" />
+    <bitmap id="WeatherSnow" filename="icons/snow.png" scope="glance" />
+    <bitmap id="WeatherStorm" filename="icons/storm.png" scope="glance" />
+    <bitmap id="WeatherFog" filename="icons/fog.png" scope="glance" />
+    <bitmap id="WeatherUnknown" filename="icons/unknown.png" scope="glance" />
+</resources>

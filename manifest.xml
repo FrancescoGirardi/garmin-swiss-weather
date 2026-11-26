@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application
+        id="c7b5d3ce-ff4c-4b67-91fe-0f5fe112b04a"
+        type="watch-app"
+        name="@Strings.AppName"
+        entry="MeteoSwissApp"
+        launcherIcon="@Drawables.LauncherIcon">
+        <iq:products>
+            <!-- Garmin's shared AMOLED target for fēnix 8 / tactix 8 / quatix 8 47 mm and 51 mm. -->
+            <iq:product id="fenix847mm" />
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Communications" />
+            <iq:uses-permission id="Positioning" />
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+    </iq:application>
+</iq:manifest>
