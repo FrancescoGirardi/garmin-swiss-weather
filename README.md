@@ -1,6 +1,6 @@
-# MeteoSwiss Weather for quatix 8
+# Garmin Swiss Weather
 
-An independent weather app designed for the **Garmin quatix 8 47 mm**. It shows the time, date, battery level, and a three-day forecast on a dark blue screen. A small glance shows today's temperature without opening the full app.
+An independent weather app for Garmin's **fēnix 8, tactix 8, and quatix 8 AMOLED watches in 47 mm and 51 mm sizes**. It has been tested on the **quatix 8 47 mm**; the other models share the same Garmin device target but have not yet been tested on hardware. The app shows the time, date, battery level, and a three-day forecast on a dark blue screen. A small glance shows today's temperature without opening the full app.
 
 Tap a day to explore its hourly temperature, rain chance, wind speed, and weather symbols. Keep swiping to continue into the following days. The app saves the last forecast so you can still see it when the connection is unavailable.
 
@@ -15,11 +15,11 @@ This is a **watch app**, so you open it from Apps. It does not replace your norm
 
 The app normally updates when you open it. If it cannot connect, it shows the saved forecast and its age. A first forecast needs a watch location; later updates can use the saved location.
 
-## Install a test build
+## Install a test build on quatix 8
 
 You need a built `.prg` file. If you are building it yourself, follow [the developer instructions](DEVELOPMENT.md).
 
-1. Connect the quatix 8 to your Mac with a USB data cable. On the watch, set **Watch Settings → System → Advanced → USB Mode → MTP**.
+1. Connect the quatix 8 to your Mac with a USB data cable. On the watch, set **Watch Settings → System → Advanced → USB Mode → MTP**. Other supported watches may have a different USB menu path.
 2. Open [OpenMTP](https://openmtp.ganeshrvel.com/) and find the watch's **GARMIN → Apps** folder.
 3. Copy the built `MeteoSwissWeather-device.prg` into that folder. Wait for the transfer to finish, quit OpenMTP, and unplug the watch.
 4. Open **MeteoSwiss Weather** from Apps on the watch.

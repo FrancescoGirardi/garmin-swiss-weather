@@ -79,7 +79,7 @@ git ls-files
 Create an **empty** repository on GitHub, without adding another README, license, or `.gitignore`. Then connect and push this project, replacing `YOUR_USERNAME` with your GitHub username:
 
 ```bash
-git remote add origin "https://github.com/YOUR_USERNAME/meteo-swiss-quatix8.git"
+git remote add origin "https://github.com/YOUR_USERNAME/garmin-swiss-weather.git"
 git push -u origin main
 ```
 
