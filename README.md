@@ -4,6 +4,15 @@ An independent weather app for Garmin's **fēnix 8, tactix 8, and quatix 8 AMOLE
 
 Tap a day to explore its hourly temperature, rain chance, wind speed, and weather symbols. Keep swiping to continue into the following days. The app saves the last forecast so you can still see it when the connection is unavailable.
 
+## On the watch
+
+<p align="center">
+  <img src="docs/images/forecast-overview.jpg" alt="Three-day forecast on a quatix 8" width="360">
+  <img src="docs/images/hourly-forecast.jpg" alt="Hourly forecast on a quatix 8" width="360">
+</p>
+
+Three-day overview and hourly detail, photographed on a quatix 8 47 mm.
+
 This is a **watch app**, so you open it from Apps. It does not replace your normal watch face.
 
 ## Use the app

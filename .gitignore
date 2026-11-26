@@ -8,3 +8,4 @@ bin/
 *.p12
 *.pfx
 *.key
+/watch photos/
