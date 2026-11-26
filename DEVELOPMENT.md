@@ -67,15 +67,20 @@ To check a current Open-Meteo response, fetch the same fields used by the app an
 - The weather symbols in `resources/icons` are original. MeteoSwiss's own graphics are not included.
 - Keep the forecast attribution in public descriptions: **MeteoSwiss ICON-CH2 via Open-Meteo**. Review the providers' terms before distributing the app, particularly if the app becomes commercial or attracts many users.
 
-## Prepare a GitHub repository
+## Publish on GitHub
 
-The `.gitignore` excludes signing keys, build outputs, and local files. Before publishing, check exactly what Git will include:
+This project already has a local Git commit. The `.gitignore` excludes signing keys, build outputs, and local files. Check the tracked files before publishing:
 
 ```bash
-git init
-git add .
 git status --short
-git diff --cached --name-only
+git ls-files
 ```
 
-Confirm that no private keys or build artifacts appear in that list. Then commit the staged files and create a GitHub repository using your usual Git or GitHub workflow. Do not upload the whole local folder through a file browser: it may include ignored local files such as `bin/`.
+Create an **empty** repository on GitHub, without adding another README, license, or `.gitignore`. Then connect and push this project, replacing `YOUR_USERNAME` with your GitHub username:
+
+```bash
+git remote add origin "https://github.com/YOUR_USERNAME/meteo-swiss-quatix8.git"
+git push -u origin main
+```
+
+Do not upload the whole local folder through a file browser: it may include ignored local files such as `bin/`.
